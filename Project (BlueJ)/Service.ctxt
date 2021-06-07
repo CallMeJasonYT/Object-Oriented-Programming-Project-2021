@@ -1,7 +1,7 @@
 #BlueJ class context
 comment0.target=Service
-comment1.params=
-comment1.target=java.lang.String\ getDetails()
-comment2.params=id\ name
-comment2.target=Service(int,\ java.lang.String)
+comment1.params=id\ name
+comment1.target=Service(int,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getDetails()
 numComments=3

@@ -1,9 +1,9 @@
 #BlueJ class context
 comment0.target=Material
-comment1.params=
-comment1.target=java.lang.String\ getDetails()
-comment2.params=id\ name\ l1\ l2\ l3
-comment2.target=Material(int,\ java.lang.String,\ double,\ double,\ double)
+comment1.params=id\ name\ l1\ l2\ l3
+comment1.target=Material(int,\ java.lang.String,\ double,\ double,\ double)
+comment2.params=
+comment2.target=java.lang.String\ getDetails()
 comment3.params=
 comment3.target=double\ getLevel1()
 comment4.params=
