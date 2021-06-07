@@ -9,7 +9,7 @@ public class Menu{
         System.out.println("Please enter your phone number: ");
         Scanner scanner = new Scanner(System.in);
         phone = scanner.nextLine();
-        try{Integer.parseInt(phone);}
+        try{Long.parseLong(phone);}
         catch (Exception e){
             System.out.println("The Number was not in a correct format. The program will now exit...");
             System.exit(0);
