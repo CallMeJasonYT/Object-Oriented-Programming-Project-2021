@@ -96,26 +96,6 @@ public class Organization
             }
         }
     }
-    public void listCurrentMaterials(){
-        System.out.println ("Materials: ");
-        for (RequestDonation l : currentDonations.getRdEntities())
-        {
-            if (!l.getEntity().isService)
-            {
-                System.out.println (String.format("ID: %s Name: %s (Quantity: %d ) ", l.getEntityID(), l.getName(), l.getQuantity()));
-            }
-        }
-    }
-    public void listCurrentServices(){
-        System.out.println ("Services: ");
-        for (RequestDonation l : currentDonations.getRdEntities())
-        {
-            if (l.getEntity().isService)
-            {
-                System.out.println (String.format("ID: %s Name: %s (Quantity: %d ) ", l.getEntityID(), l.getName(), l.getQuantity()));
-            }
-        }
-    }
     public void listMaterials(){
         System.out.println ("Materials: ");
         for (Entity e : entityList)
@@ -135,7 +115,7 @@ public class Organization
                 System.out.println (String.format("ID: %s Name: %s Quantity: %.2f", rd.getEntity().getID(), rd.getEntity().getName(), rd.getQuantity()));
             }
         }
-    } 
+    }
     public void listServices(){
         System.out.println ("Services: ");
         for (Entity e : entityList)
