@@ -26,7 +26,7 @@ public class Organization
         try{
             for (Entity en : entityList){
                 if (en.getID() == entity.getID()){
-                    throw new SimilarityException("This Entity Already Exists.");
+                    throw new OverQuantity("This Entity Already Exists.");
                 }
             }
         }catch(Exception e){

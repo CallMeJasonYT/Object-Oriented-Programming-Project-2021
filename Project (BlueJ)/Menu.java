@@ -74,7 +74,6 @@ public class Menu
     {
         String select;
         int person = 1;
-        int id = 1;
         int id2 = 2;
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please Input your Name: ");
@@ -92,7 +91,8 @@ public class Menu
         try{
             if(select.equals("1"))
             {
-                Donator d = new Donator((id++), name, phone);
+                int id = 2;
+                Donator d = new Donator(id++, name, phone);
                 o1.insertDonator(d);
                 System.out.println("Welcome Donator! \n" 
                     + "Username: " + name + "\n"
