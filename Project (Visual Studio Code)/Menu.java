@@ -74,7 +74,7 @@ public class Menu{
         name = scanner.nextLine();
         System.out.println("Please Input your Phone Number: ");
         phone = scanner.nextLine();
-        try{Integer.parseInt(phone);}
+        try{Long.parseLong(phone);}
         catch (Exception e){
             System.out.println("The Number was not in a correct format. The program will now exit...");
             scanner.close();
